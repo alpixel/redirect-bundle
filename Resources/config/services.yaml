@@ -4,4 +4,4 @@ services:
     arguments:
       - "%alpixel_redirect.rules%"
     tags:
-      - { name: kernel.event_listener, event: kernel.request, priority: -256 }
+      - { name: kernel.event_listener, event: kernel.request, priority: 9999 }
