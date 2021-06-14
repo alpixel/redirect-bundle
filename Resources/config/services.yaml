@@ -1,0 +1,7 @@
+services:
+  alpixel_redirect.listener.redirect_listener:
+    class: App\ALPIXEL\RedirectBundle\EventListener\KernelListener
+    arguments:
+      - "%alpixel_redirect.rules%"
+    tags:
+      - { name: kernel.event_listener, event: kernel.request, priority: -256 }
