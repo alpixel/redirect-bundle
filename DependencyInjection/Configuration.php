@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ALPIXEL\RedirectBundle\DependencyInjection;
+namespace ALPIXEL\Bundle\RedirectBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;

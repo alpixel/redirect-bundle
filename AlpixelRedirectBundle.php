@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ALPIXEL\RedirectBundle;
+namespace ALPIXEL\Bundle\RedirectBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

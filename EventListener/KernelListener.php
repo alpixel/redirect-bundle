@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ALPIXEL\RedirectBundle\EventListener;
+namespace ALPIXEL\Bundle\RedirectBundle\EventListener;
 
 
 use Symfony\Component\HttpFoundation\RedirectResponse;
